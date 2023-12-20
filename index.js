@@ -44,6 +44,11 @@ const fs = require('fs');
       type: 'input',
       name: 'notes',
       message: 'Any special notes?'
+    },
+    {
+      type: 'input',
+      name: 'bookmark',
+      message: 'Any special bookmark?'
     }
   ]);
 
