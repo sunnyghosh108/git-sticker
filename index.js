@@ -49,6 +49,11 @@ const fs = require('fs');
       type: 'input',
       name: 'bookmark',
       message: 'Any special bookmark?'
+    },
+    {
+      type: 'input',
+      name: 'sticker',
+      message: 'Any special sticker bookmark?'
     }
   ]);
 
